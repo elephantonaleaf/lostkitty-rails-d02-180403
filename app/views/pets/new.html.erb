@@ -1,0 +1,15 @@
+
+
+<%= form_for(@pet) do |f| %>
+    <%= f.label :name, "please enter a name" %>
+    <%= f.text_field :name %>
+    <%= f.label :address, "please enter a address" %>
+    <%= f.text_field :address %>
+    <%= f.label :category, "please enter a category" %>
+    <%= f.text_field :category %>
+    <%= f.label :description, "please enter a description" %>
+    <%= f.text_field :description %>
+    <%= f.submit %>
+
+<% end %>
+
